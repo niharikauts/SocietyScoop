@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+    <android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:adjustViewBounds="true"
+   >
+
+        <LinearLayout
+            android:padding="3dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/pancake"
+            android:id="@+id/pancake"
+
+            android:layout_alignParentTop="true"
+            />
+
+        <Button
+            android:id="@+id/btnmenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROCEED TO MENU"
+            android:background="#00796B"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/pancake"
+            android:padding="10dp"
+            />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+</LinearLayout>

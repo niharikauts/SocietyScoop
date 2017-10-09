@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.niharika.yetanotherproj.fragments.ThreeFragment">
+
+  <android.support.v7.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:adjustViewBounds="true"
+      android:layout_margin="4dp"
+
+      >
+
+      <LinearLayout
+          android:padding="3dp"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:background="#ffffff"
+          >
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Query Id"
+              android:id="@+id/query"
+              android:textSize="20sp"
+              android:background="#ffffff"
+              android:layout_marginBottom="10dp"
+              />
+<TableRow android:layout_width="match_parent" android:layout_height="1dp" android:background="#444"></TableRow>
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="150sp"
+              android:hint="Your Feedback"
+              android:textSize="20sp"
+
+              android:id="@+id/feedback"
+              android:paddingBottom="5dp"
+              android:layout_marginBottom="10dp"
+              android:background="#ffffff"
+              />
+
+          <TableRow android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:background="#444"
+              android:layout_marginBottom="10dp"
+              ></TableRow>
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="SEND"
+              android:textStyle="bold"
+              android:textSize="25sp"
+              android:id="@+id/qsend"
+              android:background="#4cd964"
+              android:textColor="#ffffff"
+              android:padding="3dp"
+              />
+
+
+      </LinearLayout>
+  </android.support.v7.widget.CardView>
+
+</RelativeLayout>

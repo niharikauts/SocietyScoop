@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Society Scoop</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_one_fragment">OneFragment</string>
+    <string name="title_activity_two_fragment">TwoFragment</string>
+    <string name="title_activity_three_fragment">ThreeFragment</string>
+    <string name="title_activity_fragment_four">fragment_four</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_first_page">FirstPage</string>
+    <string name="title_activity_register">Register</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_conpassword">Re-enter Password</string>
+    <string name="hint_flat">Flat Number</string>
+    <string name="user_aboutus">About Us</string>
+    <string name="user_logout">Logout</string>
+    <string name="title_activity_aboutus">About Us</string>
+    <string name="title_activity_confirm">Confirm</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:background="#ffffff"
+            >
+
+
+            <ImageView
+                android:id="@+id/imageViewContact"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plumber"
+                android:textSize="30sp"
+                android:textColor="#f44336"
+                android:textStyle="bold"
+                android:id="@+id/textViewDesg"
+                android:layout_toRightOf="@+id/imageViewContact"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: Meow Meow"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:id="@+id/textViewName"
+                android:layout_below="@+id/textViewDesg"
+                android:layout_toRightOf="@+id/imageViewContact" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 1234567890"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:id="@+id/textViewPNO"
+                android:layout_below="@+id/textViewName"
+                android:layout_toRightOf="@+id/imageViewContact"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call"
+                android:id="@+id/callbutton"
+                android:layout_below="@+id/textViewPNO"
+                android:layout_toRightOf="@+id/imageViewContact"
+                />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>

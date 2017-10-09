@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.niharika.yetanotherproj.polling">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        >
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+
+            android:background="@color/backpoll"
+            >
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are the gardens properly maintained ?"
+        android:textSize="20sp"
+        android:id="@+id/ques"
+        android:textColor="@color/textColorPrimary"
+        android:background="@color/poll"
+        android:padding="15dp"/>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ques"
+        android:padding="15dp"
+        android:id="@+id/options">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:buttonTint="#707070"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/OP1"
+            android:text="YES"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_view"
+            android:text="NO"
+            android:buttonTint="#707070"
+            android:id="@+id/OP2"
+            android:textSize="20sp"
+            />
+    </RadioGroup>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUBMIT"
+                android:layout_below="@+id/options"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/submit"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
